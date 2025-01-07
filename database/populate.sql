@@ -1,0 +1,15 @@
+INSERT INTO `city` VALUES (1,'pune'),(2,'mumbai'),(3,'nagpur'),(4,'solapur'),(5,'thane'),(6,'nanded'),(7,'sangli'),(8,'akola'),(9,'chandrapur'),(10,'ichalkaranji'),(11,'bhusaval'),(12,'panvel'),(13,'satara'),(14,'yavatmal'),(15,'achalpur'),(16,'udgir'),(17,'parli'),(18,'chiplun'),(19,'pimpri chinchwad'),(20,'dhule'),(21,'ahmednagar'),(22,'miraj'),(23,'nasik'),(24,'aurangabad'),(25,'amravati'),(26,'kolhapur'),(27,'jalgaon'),(28,'latur'),(29,'parbhani'),(30,'jalna'),(31,'navi mumbai'),(32,'ulhasanagar'),(33,'beed'),(34,'kamptee'),(35,'barshi'),(36,'osmanabad'),(37,'wardha'),(38,'hinganghat'),(39,'karad'),(40,'Ratnagiri');
+
+
+INSERT INTO `payment_mode` VALUES (1,'credit'),(2,'debit'),(3,'netbanking'),(4,'wallets'),(5,'upi'),(6,'cash');
+
+
+INSERT INTO `product` VALUES (1,'rice'),(2,'wheat'),(3,'jawar'),(4,'Bajra'),(5,'Ragi'),(6,'pulses'),(7,'cereals'),(8,'spices');
+
+INSERT INTO `producttype` VALUES (1,1,'basmati'),(2,1,'jasmine'),(3,1,'indrayani'),(4,1,'ambemohar'),(5,1,'kolam'),(6,1,'mogra'),(7,2,'sihore'),(8,2,'lokwan'),(9,2,'purna'),(10,2,'malavaraj'),(11,2,'punjabi'),(12,2,'khapli'),(13,2,'bhalia'),(14,3,'hybrid'),(15,3,'maldani'),(16,3,'pandhari'),(17,3,'kali'),(18,3,'gulabi'),(19,4,'sorghum'),(20,4,'pearl'),(21,5,'wild'),(22,5,'cultivated'),(23,6,'masoor dal'),(24,6,' chana dal'),(25,6,'tur dal'),(26,6,'moong dal'),(27,6,'urad dal'),(28,7,'masoor'),(29,7,'mataki'),(30,7,'moog'),(31,7,'toor'),(32,7,'urad'),(33,7,'chana'),(34,7,'rajma'),(35,7,'chole'),(36,7,'soyabin'),(37,7,'peas'),(38,8,'turmeric'),(39,8,'cumin'),(40,8,'mustard');
+
+
+INSERT INTO `role` VALUES (1,'admin'),(2,'farmer'),(3,'customer');
+
+
+INSERT INTO `user` VALUES (1,'Alia123','Aia@123','Alia','Singh',1,'ak123@gmail.com','Deccan',1,'9876543245','435678905434'),(2,'Chetan123','Chetan@123','Chetan','Sharma',3,'chetan12@gmail.com','Katraj',1,'8976545678','987654321345'),(3,'Farhan123','Farhan@123','farhan','Verma',2,'farhan45@gmail.com','Pimpri',1,'9876542345','435678654334'),(4,'Sayali','3241','Sayali','Sonawane',1,'sayalisonawane1110@gmail.com','Dhamani',1,'8767300526','4526635242627'),(5,'Sanjana','12345','Sanjana','Pawale',3,'sanjana@gmaill.com','Katraj',1,'8765432145','453216789098'),(6,'Sa','34556','Sa','Son',1,'sayalisonawa0@gmail.com','svgdj',1,'37585','543663'),(10,'Shraddha1','123','Shraddha','Kadam',2,'','shradhha@323',13,'6543','654'),(11,'San','345','Sanjana','Pawale',3,'Sanjana3@gmail.com','Katraj',19,'8786422222','12345678987'),(13,'Jay','2345','jay','Sharma',1,'Jay@345','pune',7,'876543234567','678546789065'),(14,'Akanksha6775','45356','Akanksha','Senad',1,'Akanksha@1344','Dhamani',1,'8735363737','678456383637'),(19,'Siddhant123','Siddhant344','Siddhant','Sonawane',2,'siddhant@gmail.com','Dhamani',1,'9876543456','765432345678'),(20,'Sangita123','Sangita@123','Sangita','sonawane',3,'Sangita@gmail.com','Dhamani',1,'8876543456','876543567891'),(21,'Subhash123','Subhash123@','Subhash','Sonawane',2,'Subhash@gmail.com','Dhamani',19,'9134567898','765432178908');
